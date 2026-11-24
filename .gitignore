@@ -1,0 +1,29 @@
+# Virtual environment (hundreds of MB of packages)
+.venv/
+venv/
+
+# Datasets (CIFAR-10 is re-downloaded by torchvision / prepare_data.py)
+data/
+
+# Trained models and training runs (large checkpoints)
+runs/
+runs_*/
+*.pt
+*.pth
+
+# Temporary logs and archives
+cpu_demo_log.txt
+*.log
+*.zip
+
+# Python / Jupyter caches
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Editor / OS files
+.vscode/
+.idea/
+.claude/
+.DS_Store
+Thumbs.db
